@@ -44,5 +44,9 @@ ggplot(diamonds, aes(x = carat, y = price)) +
 ```{r break-it-2}
 # Kort here again
 
+#Jaxon"s code for break it 2
+ggplot(diamonds, aes(x = carat, y = cut)) + 
+  geom_bar()
+
 
 ```
