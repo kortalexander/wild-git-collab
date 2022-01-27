@@ -34,9 +34,9 @@ diamonds = diamonds %>%
 ## STEP 7: Uh oh, merge conflicts!
 
 ```{r break-it-1}
-# Kort here
-
-
+ggplot(diamonds, aes(x = carat, y = price)) + 
+  geom_point()
+# the above code plots the carats vs the price of diamonds
 ```
 
 ## STEP 11: And even more merge conflicts!
